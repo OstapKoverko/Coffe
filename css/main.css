@@ -2,8 +2,12 @@
 body {
   max-width: 1024px;
   margin: 0 auto;
-  background: url("../images/background-body.jpg");
+  background-image: url(../images/background-header.jpg),
+    url(..//images/background-footer.jpg); /*url("../images/background-body.jpg");*/
+  background-position: right top, left bottom;
+  background-repeat: no-repeat, no-repeat;
 }
+
 a {
   text-decoration: none;
 }
