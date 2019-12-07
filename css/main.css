@@ -1,8 +1,5 @@
 /* GENERAL STYLES */
 
-/* html {
-  height: 100%;
-} */
 * {
   box-sizing: border-box;
 }
@@ -12,17 +9,18 @@ body {
   margin: 0px auto;
   background-image: url(../images/background-header.jpg),
     url(..//images/background-footer.jpg); /*url("../images/background-body.jpg");*/
-  background-position: right 110px, left bottom -130px;
+  background-position: right top, left bottom -130px;
   background-repeat: no-repeat, no-repeat;
 }
 
 a {
   text-decoration: none;
+  color: brown;
 }
 
 /* MAIN */
 main {
-  top: 130px;
+  margin: 14% 0 0;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -31,48 +29,43 @@ main {
 
 /* Header */
 header {
+  top: 170px;
   height: 110px;
+  width: 700px;
+  position: relative;
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  position: fixed;
-  width: 100%;
-  max-width: inherit;
+  justify-content: space-around;
+  text-align: center;
   background-color: white;
   z-index: 1;
+  margin: 0 10em;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
 }
 .column {
   float: left;
   padding: 15px;
 }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .menu {
   width: 140px;
-}
-
-.menu ul {
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 
 .menu li,
-aside {
+aside,
+footer {
   list-style-type: none;
   padding: 8px;
   margin-bottom: 8px;
   background-color: beige;
-}
-
-.menu :last-child,
-aside {
   font-family: cursive;
   font-weight: bold;
+  text-align: center;
   color: brown;
 }
 
@@ -82,7 +75,6 @@ aside {
 /* Article */
 article {
   max-width: 75%;
-  /* position: relative; */
 }
 
 .opacity {
@@ -110,26 +102,28 @@ article {
   color: chocolate;
 }
 
-.container p {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 /* Aside */
 aside {
   height: 10%;
   position: fixed;
   right: 10%;
-  bottom: 5%;
+  bottom: 40%;
   max-width: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
-  box-shadow: 0 0 100px orange, 0 0 10px brown;
+  /* box-shadow: 0 0 100px orange, 0 0 10px brown; */
   border-radius: 15px;
 }
 aside:hover {
   background-color: chocolate;
 }
+
+/* FOOTER */
+footer {
+  margin: auto;
+  width: 25%;
+}
+
+/* MODAL WINDOW */
