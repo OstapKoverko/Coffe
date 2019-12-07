@@ -1,10 +1,18 @@
 /* GENERAL STYLES */
+
+/* html {
+  height: 100%;
+} */
+* {
+  box-sizing: border-box;
+}
+
 body {
   max-width: 1024px;
-  margin: 0 auto;
+  margin: 0px auto;
   background-image: url(../images/background-header.jpg),
     url(..//images/background-footer.jpg); /*url("../images/background-body.jpg");*/
-  background-position: right top, left bottom;
+  background-position: right 110px, left bottom -130px;
   background-repeat: no-repeat, no-repeat;
 }
 
@@ -12,45 +20,116 @@ a {
   text-decoration: none;
 }
 
+/* MAIN */
+main {
+  top: 130px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+/* Header */
+header {
+  height: 110px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: fixed;
+  width: 100%;
+  max-width: inherit;
+  background-color: white;
+  z-index: 1;
+}
+.column {
+  float: left;
+  padding: 15px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 140px;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.menu li,
+aside {
+  list-style-type: none;
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: beige;
+}
+
+.menu :last-child,
+aside {
+  font-family: cursive;
+  font-weight: bold;
+  color: brown;
+}
+
+.menu li:hover {
+  background-color: burlywood;
+}
+/* Article */
+article {
+  max-width: 75%;
+  /* position: relative; */
+}
+
 .opacity {
   height: 100%;
-  width: 100%;
+  width: 75%;
   background-color: white;
   opacity: 0.8;
   z-index: -1;
   position: absolute;
 }
 
-header,
-main {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  position: relative;
+.container {
+  width: 40%;
+  float: left;
+  display: grid;
+  margin: 5%;
+  text-align: center;
+}
+.container img {
+  max-width: 50%;
+  margin: auto;
+}
+.container h4 {
+  margin: 0;
+  color: chocolate;
 }
 
-/* MAIN */
-article {
-  max-width: 700px;
-  position: relative;
+.container p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-#article {
-  padding: 20px;
-}
+
+/* Aside */
 aside {
+  height: 10%;
+  position: fixed;
+  right: 10%;
+  bottom: 5%;
   max-width: 250px;
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
+  box-shadow: 0 0 100px orange, 0 0 10px brown;
+  border-radius: 15px;
 }
-
-.container {
-  width: 50%;
-  float: left;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  position: relative;
+aside:hover {
+  background-color: chocolate;
 }
