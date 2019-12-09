@@ -1,0 +1,13 @@
+.btn {
+  border: none;
+}
+
+.btn-primary {
+  background-color: white;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: beige;
+}

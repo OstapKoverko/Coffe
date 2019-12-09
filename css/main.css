@@ -20,7 +20,7 @@ a {
 
 /* MAIN */
 main {
-  margin: 14% 0 0;
+  margin: 20% 0 0;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -31,24 +31,27 @@ main {
 header {
   top: 170px;
   height: 110px;
-  width: 700px;
+  max-width: 600px;
   position: relative;
   display: flex;
   justify-content: space-around;
   text-align: center;
   background-color: white;
   z-index: 1;
-  margin: 0 10em;
+  margin: 0 auto;
 }
 
 .sticky {
   position: fixed;
   top: 0;
+  left: 17%;
+  max-width: 600px;
 }
-.column {
+
+/* .column {
   float: left;
   padding: 15px;
-}
+} */
 
 .menu {
   width: 140px;
@@ -76,6 +79,9 @@ footer {
 article {
   max-width: 75%;
 }
+.btn img {
+  max-width: 40%;
+}
 
 .opacity {
   height: 100%;
@@ -86,7 +92,7 @@ article {
   position: absolute;
 }
 
-.container {
+/* .container {
   width: 40%;
   float: left;
   display: grid;
@@ -100,11 +106,12 @@ article {
 .container h4 {
   margin: 0;
   color: chocolate;
-}
+} */
 
 /* Aside */
 aside {
-  height: 10%;
+  height: 100px;
+  width: 100px;
   position: fixed;
   right: 10%;
   bottom: 40%;
