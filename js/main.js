@@ -2,7 +2,7 @@ $(function() {
   $('#submit').click(function(e) {
     e.preventDefault();
     $.ajax({
-      url: 'https://formspree.io/tank302@gmail.com',
+      url: 'https://formspree.io/mkngaozw',
       method: 'POST',
       data: { email: $('#customer').val(), message: $('#phone').val() },
       dataType: 'json'
