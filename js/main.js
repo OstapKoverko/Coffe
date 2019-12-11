@@ -1,16 +1,16 @@
-$(function() {
-  $('#submit').click(function(e) {
-    e.preventDefault();
-    $.ajax({
-      url: 'https://formspree.io/mkngaozw',
-      method: 'POST',
-      data: { email: $('#customer').val(), message: $('#phone').val() },
-      dataType: 'json'
-    }).done(function() {
-      $('#contact').html('<h4>Дякую! Я невдовзі Вам відповім!</h4>');
-    });
-  });
-});
+// $(function() {
+//   $('#submit').click(function(e) {
+//     e.preventDefault();
+//     $.ajax({
+//       url: 'https://formspree.io/mkngaozw',
+//       method: 'POST',
+//       data: { email: $('#customer').val(), message: $('#phone').val() },
+//       dataType: 'json'
+//     }).done(function() {
+//       $('#contact').html('<h4>Дякую! Я невдовзі Вам відповім!</h4>');
+//     });
+//   });
+// });
 
 // $('#exampleModal').on('show.bs.modal', function(event) {
 //   // var button = $(event.relatedTarget); // Button that triggered the modal
