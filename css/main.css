@@ -76,21 +76,21 @@ footer {
   background-color: burlywood;
 }
 /* Article */
-article {
+/* article {
   max-width: 75%;
-}
+} */
 .btn img {
   max-width: 40%;
 }
 
-.opacity {
+/* .opacity {
   height: 100%;
   width: 75%;
   background-color: white;
   opacity: 0.8;
   z-index: -1;
   position: absolute;
-}
+} */
 
 /* .container {
   width: 40%;

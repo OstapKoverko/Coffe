@@ -1,13 +1,31 @@
-.btn {
-  border: none;
+p {
+  margin: auto;
 }
 
-.btn-primary {
+.btn {
+  border: none;
+  font-weight: bold;
+  color: brown;
+}
+
+.btn {
   background-color: white;
 }
 
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:focus {
+.btn:hover,
+.btn:active,
+.btn:focus {
   background-color: beige;
 }
+
+/* .modal {
+  z-index: 2;
+}
+
+.modal-dialog {
+  z-index: 3;
+}
+
+.modal-content {
+  z-index: 4;
+} */
