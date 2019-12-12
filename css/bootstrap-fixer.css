@@ -2,21 +2,40 @@ p {
   margin: auto;
 }
 
-.btn {
+article .btn {
   border: none;
   font-weight: bold;
   color: brown;
 }
 
-.btn {
-  background-color: white;
+article .btn:hover {
+  background-color: beige;
+  color: black;
 }
 
-.btn:hover,
-.btn:active,
-.btn:focus {
+.btn-aside {
+  border: 1px solid;
   background-color: beige;
+  color: brown;
 }
+
+.btn-aside:hover {
+  background-color: burlywood;
+  border-color: brown;
+  border: 1px solid;
+}
+
+/* .btn {
+  background-color: white;
+} */
+
+/* 
+@media (min-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 540px;
+  }
+} */
 
 /* .modal {
   z-index: 2;

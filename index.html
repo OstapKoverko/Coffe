@@ -38,6 +38,30 @@
       <ul class="menu">
         <li><a href="#">Про нас</a></li>
         <!-- <li><a href="#">Про нас</a></li> -->
+
+        <!-- <li type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Про нас</li>  -->
+        <!-- Modal -->
+        <!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Про нас:</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+
+
       </ul>
       <img src="images/logo.jpg" alt="logo" />
       <ul class="menu">
@@ -984,10 +1008,7 @@
               </button>
             </div>
             <div class="modal-body">
-              <form id= "contact"
-               action="https://formspree.io/mkngaozw"
-                method="POST"
-              >
+              <form id="contact">
                 <div class="form-group">
                   <label for="customer" class="col-form-label">Ваше ім'я та прізвище:</label>
                   <input type="text" class="form-control" id="customer">
@@ -996,11 +1017,11 @@
                   <label for="phone" class="phonecol-form-label">Ваш контактний телефон:</label>
                   <input type="text" class="form-control" id="phone">
                 </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-aside" data-dismiss="modal">Назад</button>
+                  <button id='submit' type="button" class="btn btn-aside">Відправити</button>
+                </div>
               </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Назад</button>
-              <button id='submit' type="button" class="btn btn-primary">Відправити</button>
             </div>
           </div>
         </div>
@@ -1021,52 +1042,6 @@
        crossorigin="anonymous">
     </script>
     <script src="js/stickyContol.js"></script>
-    <script src="js/main.js"></script>
-    <script> window.addEventListener("DOMContentLoaded", function() {
-
-    // get the form elements defined in your form HTML above
-    
-    var form = document.getElementById("contact");
-    var button = document.getElementById("submit");
-    var status = document.getElementById("contact");
-
-    // Success and Error functions for after the form is submitted
-    
-    function success() {
-      form.reset();
-      button.style = "display: none ";
-      status.innerHTML = "Thanks!";
-    }
-
-    function error() {
-      status.innerHTML = "Oops! There was a problem.";
-    }
-
-    // handle the form submission event
-
-    form.addEventListener("submit", function(ev) {
-      ev.preventDefault();
-      var data = new FormData(form);
-      ajax(form.method, form.action, data, success, error);
-    });
-  });
-  
-  // helper function for sending an AJAX request
-
-  function ajax(method, url, data, success, error) {
-    var xhr = new XMLHttpRequest();
-    xhr.open(method, url);
-    xhr.setRequestHeader("Accept", "application/json");
-    xhr.onreadystatechange = function() {
-      if (xhr.readyState !== XMLHttpRequest.DONE) return;
-      if (xhr.status === 200) {
-        success(xhr.response, xhr.responseType);
-      } else {
-        error(xhr.status, xhr.response, xhr.responseType);
-      }
-    };
-    xhr.send(data);
-  }
-</script>
+    <script src="js/form-sender.js"></script>
   </body>
 </html>

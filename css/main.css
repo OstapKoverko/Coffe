@@ -17,10 +17,14 @@ a {
   text-decoration: none;
   color: brown;
 }
+a :hover {
+  color: brown;
+  text-decoration: chartreuse;
+}
 
 /* MAIN */
 main {
-  margin: 20% 0 0;
+  margin: 30% 0 0;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -29,7 +33,7 @@ main {
 
 /* Header */
 header {
-  top: 170px;
+  top: 225px;
   height: 110px;
   max-width: 600px;
   position: relative;
@@ -38,20 +42,15 @@ header {
   text-align: center;
   background-color: white;
   z-index: 1;
-  margin: 0 auto;
+  margin: 0px 17%;
 }
 
 .sticky {
   position: fixed;
   top: 0;
-  left: 17%;
-  max-width: 600px;
+  width: 100%;
+  margin: 0px 17%;
 }
-
-/* .column {
-  float: left;
-  padding: 15px;
-} */
 
 .menu {
   width: 140px;
@@ -70,6 +69,7 @@ footer {
   font-weight: bold;
   text-align: center;
   color: brown;
+  border: 1px solid;
 }
 
 .menu li:hover {
@@ -114,7 +114,7 @@ aside {
   width: 100px;
   position: fixed;
   right: 10%;
-  bottom: 40%;
+  bottom: 25%;
   max-width: 250px;
   display: flex;
   flex-direction: column;
@@ -124,12 +124,12 @@ aside {
   border-radius: 15px;
 }
 aside:hover {
-  background-color: chocolate;
+  background-color: burlywood;
 }
 
 /* FOOTER */
 footer {
-  margin: auto;
+  margin: 10% auto;
   width: 25%;
 }
 
