@@ -13,6 +13,12 @@ body {
   background-repeat: no-repeat, no-repeat;
 }
 
+@media screen and (max-width: 576px) {
+  .body {
+    background-size: contain;
+  }
+}
+
 a {
   text-decoration: none;
   color: brown;
@@ -24,7 +30,6 @@ a :hover {
 
 /* MAIN */
 main {
-  margin: 30% 0 0;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -33,24 +38,20 @@ main {
 
 /* Header */
 header {
-  top: 225px;
-  height: 110px;
-  max-width: 600px;
+  max-width: 70%;
   position: relative;
-  display: flex;
-  justify-content: space-around;
   text-align: center;
-  background-color: white;
   z-index: 1;
-  margin: 0px 17%;
+  margin: 25% auto 0;
+  padding: 0;
 }
 
-.sticky {
+/* .sticky {
   position: fixed;
   top: 0;
   width: 100%;
   margin: 0px 17%;
-}
+} */
 
 .menu {
   width: 140px;
@@ -114,7 +115,7 @@ aside {
   width: 100px;
   position: fixed;
   right: 10%;
-  bottom: 25%;
+  bottom: 15%;
   max-width: 250px;
   display: flex;
   flex-direction: column;

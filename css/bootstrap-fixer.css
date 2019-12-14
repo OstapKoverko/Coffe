@@ -25,6 +25,21 @@ article .btn:hover {
   border: 1px solid;
 }
 
+.carousel-item img {
+  max-height: 500px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    background-size: contain;
+  }
+}
+
+/* header .col {
+  display: flex;
+  align-items: center;
+} */
 /* .btn {
   background-color: white;
 } */
