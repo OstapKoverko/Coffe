@@ -13,13 +13,28 @@ article .btn:hover {
   color: black;
 }
 
-.btn-aside {
+.btn img {
+  max-width: 40%;
+}
+
+.btn h5 {
+  color: black;
+  text-decoration-line: line-through;
+}
+
+.btn h4 {
+  color: red;
+}
+
+.btn-aside,
+.carousel-description .btn-description {
   border: 1px solid;
   background-color: beige;
   color: brown;
 }
 
-.btn-aside:hover {
+.btn-aside:hover,
+.carousel-description .btn-description:hover {
   background-color: burlywood;
   border-color: brown;
   border: 1px solid;
@@ -28,6 +43,15 @@ article .btn:hover {
 .carousel-item img {
   max-height: 500px;
   margin: auto;
+}
+.carousel-indicators li {
+  background-color: lime;
+  height: 5px;
+}
+
+.carousel-description p {
+  font-size: 1.2rem;
+  padding: 5%;
 }
 
 @media screen and (max-width: 1024px) {
