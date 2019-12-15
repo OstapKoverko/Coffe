@@ -26,19 +26,25 @@ article .btn:hover {
   color: red;
 }
 
-.btn-aside,
+.menu-buttons,
 .carousel-description .btn-description {
   border: 1px solid;
   background-color: beige;
   color: brown;
 }
 
-.btn-aside:hover,
+.menu-buttons:hover,
 .carousel-description .btn-description:hover {
   background-color: burlywood;
   border-color: brown;
   border: 1px solid;
 }
+
+#delivery .modal-body {
+  text-align: center;
+}
+
+/* ARTICLE */
 
 .carousel-item img {
   max-height: 500px;

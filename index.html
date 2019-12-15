@@ -39,37 +39,146 @@
         <div class="row">
           <div class="col">
             <ul class="menu">
-              <li><a href="#">Про нас</a></li>
-              <!-- <li><a href="#">Про нас</a></li> -->
-
-              <!-- <li type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Про нас</li>  -->
+              <!-- About us -->
+              <li data-toggle="modal" data-target="#about-us">
+                Про нас
+              </li>
               <!-- Modal -->
-              <!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div
+                class="modal fade"
+                id="about-us"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true"
+              >
                 <div class="modal-dialog modal-dialog-centered" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalCenterTitle">Про нас:</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <h5 class="modal-title" id="exampleModalCenterTitle">
+                        Про нас:
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
                     <div class="modal-body">
-                      ...
+                      <img
+                        id="logo2"
+                        src="images/logo2.jpg"
+                        alt="Kava logo 2"
+                      />
+                      <br />
+                      <p>
+                        Кава підштовхує до спілкування, зближує, зігріває, а
+                        якщо це ще й вартісна кава - шалено смакує! Кофеїн
+                        стимулює центральну нервову систему, даруючи заряд
+                        енергії та натхнення. Запрошувати на каву - один з
+                        невід’ємних пунктів у стосунках між людьми. «Кава
+                        Характерна» - це високоякісний продукт, який за власними
+                        рецептами виготовлений з натхненням та любов’ю майстрами
+                        зі Львова – міста, яке досконало розбирається у каві. За
+                        часи існування кавових напоїв, було винайдено десятки
+                        різноманітних сортів та способів приготування.
+                      </p>
+                      <br />
+                      <p>
+                        «Кава Характерна», в процесі створення свого широкого
+                        асортименту, в першу чергу поставила перед собою ціль
+                        догодити кожному кавоману. Вона уособлює контраст між
+                        старовинними рецептами та найсучаснішими методиками
+                        обсмаження кавових зерен. Кожен шанувальник кави має
+                        змогу підібрати щось особливе під свій смак та
+                        вподобання, а для найвибагливіших поціновувачів
+                        запропоновано спеціальну елітну лінійку «моносорти».
+                      </p>
+                      <br />
+                      <p>
+                        «Кава Характерна» безумовно стане найкращим наповненням
+                        ранкової філіжанки та безпрограшним подарунком на
+                        будь-який випадок життя!
+                      </p>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button
+                        type="button"
+                        class="btn menu-buttons"
+                        data-dismiss="modal"
+                      >
+                        Назад
+                      </button>
                     </div>
                   </div>
                 </div>
-              </div> -->
+              </div>
+              <!-- /About us -->
             </ul>
           </div>
-          <div class="col">
+          <div class="col" id="logo">
             <img src="images/logo.jpg" alt="logo" />
           </div>
           <div class="col">
             <ul class="menu">
-              <li><a href="#">Доставка</a></li>
+              <!-- Delivery -->
+              <li data-toggle="modal" data-target="#delivery">
+                Доставка
+              </li>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="delivery"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalCenterTitle">
+                        Доставка:
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        <b
+                          >! при замовленні на суму від 300 грн. доставляємо
+                          безкоштовно !</b
+                        >
+                      </p>
+                      <img
+                        src="images/nova-poshta-logo.png"
+                        alt="nova-poshta-logo"
+                      />
+                      <p>Доставка Новою Поштою, наложений платіж</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn menu-buttons"
+                        data-dismiss="modal"
+                      >
+                        Назад
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- /Delivery -->
+
               <!-- <li><a href="#">Корзина</a></li> -->
             </ul>
           </div>
@@ -87,7 +196,7 @@
             <!--Кава 1-->
             <div class="col">
               <div class="btn" data-toggle="modal" data-target="#modal-1">
-                <img src="images/Coffe/Lemberg 1.JPG" />
+                <img src="images/Coffe/Lemberg 0.JPG" />
                 <h3>Lemberg</h3>
                 <h5>82,00 грн.</h5>
                 <h4>58,00 грн.</h4>
@@ -220,7 +329,7 @@
             <!--Кава 2-->
             <div class="col">
               <div class="btn" data-toggle="modal" data-target="#modal-2">
-                <img src="images/Coffe/Colombia 1.JPG" />
+                <img src="images/Coffe/Colombia 0.JPG" />
                 <h3>Colombia Supremo</h3>
                 <h5>115,00 грн.</h5>
                 <h4>80,00 грн.</h4>
@@ -321,7 +430,7 @@
                       <div class="carousel-description">
                         <p>
                           <b>«Colombia Supremo»</b> - 250 г., 100% Арабіка,
-                          мелена кава, категорія «моносорта», степінь обсмаження
+                          мелена кава, категорія «моносорти», степінь обсмаження
                           – середня, походження – Колумбія. Вартість – без
                           урахування знижки – <b>115.00</b>, акційна –
                           <b>80.00</b>.
@@ -358,7 +467,7 @@
             <!--Кава 3-->
             <div class="col">
               <div class="btn" data-toggle="modal" data-target="#modal-3">
-                <img src="images/Coffe/Ethiopia 1.JPG" />
+                <img src="images/Coffe/Ethiopia 0.JPG" />
                 <h3>Ethiopia Sidamo</h3>
                 <h5>144,00 грн.</h5>
                 <h4>99,00 грн.</h4>
@@ -459,7 +568,7 @@
                       <div class="carousel-description">
                         <p>
                           <b>«Ethiopia Sidamo»</b> - 250 г., 100% Арабіка,
-                          мелена кава, категорія «моносорта», степінь обсмаження
+                          мелена кава, категорія «моносорти», степінь обсмаження
                           – середня, походження – Ефіопія. Вартість – без
                           урахування знижки – <b>144.00</b>, акційна –
                           <b>99.00</b>.
@@ -494,7 +603,7 @@
             <!--Кава 4-->
             <div class="col">
               <div class="btn" data-toggle="modal" data-target="#modal-4">
-                <img src="images/Coffe/Галіція 1.JPG" />
+                <img src="images/Coffe/Галіція 0.JPG" />
                 <h3>Галіція</h3>
                 <h5>78,00 грн.</h5>
                 <h4>50,00 грн.</h4>
@@ -631,7 +740,7 @@
             <!--Кава 5-->
             <div class="col">
               <div class="btn" data-toggle="modal" data-target="#modal-5">
-                <img src="images/Coffe/Kenya 1.JPG" />
+                <img src="images/Coffe/Kenya 0.JPG" />
                 <h3>Kenya. Mount Selection</h3>
                 <h5>175,00 грн.</h5>
                 <h4>140,00 грн.</h4>
@@ -732,7 +841,7 @@
                       <div class="carousel-description">
                         <p>
                           <b>«Kenya. Mount Selection»</b> - 250 г., 100%
-                          Арабіка, мелена кава, категорія «моносорта», степінь
+                          Арабіка, мелена кава, категорія «моносорти», степінь
                           обсмаження – середня, походження – Кенія. Вартість –
                           без урахування знижки – <b>175.00</b>, акційна –
                           <b>140.00</b>.
@@ -767,7 +876,7 @@
             <!--Кава 6-->
             <div class="col">
               <div class="btn" data-toggle="modal" data-target="#modal-6">
-                <img src="images/Coffe/Бандерівка 1.JPG" />
+                <img src="images/Coffe/Бандерівка 0.JPG" />
                 <h3>Бандерівка</h3>
                 <h5>82,00 грн.</h5>
                 <h4>58,00 грн.</h4>
@@ -903,7 +1012,7 @@
             <!--Кава 7-->
             <div class="col">
               <div class="btn" data-toggle="modal" data-target="#modal-7">
-                <img src="images/Coffe/Costa Rica 1.JPG" />
+                <img src="images/Coffe/Costa Rica 0.JPG" />
                 <h3>Costa Rica. Azalea</h3>
                 <h5>145,00 грн.</h5>
                 <h4>110,00 грн.</h4>
@@ -1004,7 +1113,7 @@
                       <div class="carousel-description">
                         <p>
                           <b>«Costa Rica. Azalea»</b> - 250 г., 100% Арабіка,
-                          мелена кава, категорія «моносорта», степінь обсмаження
+                          мелена кава, категорія «моносорти», степінь обсмаження
                           – середня, походження – Коста-Рика. Вартість – без
                           урахування знижки – <b>145.00</b>, акційна –
                           <b>110.00</b>
@@ -1036,7 +1145,7 @@
             <!--Кава 8-->
             <div class="col">
               <div class="btn" data-toggle="modal" data-target="#modal-8">
-                <img src="images/Coffe/BanderStadt 1.JPG" />
+                <img src="images/Coffe/BanderStadt 0.JPG" />
                 <h3>BanderStadt</h3>
                 <h5>78,00 грн.</h5>
                 <h4>50,00 грн.</h4>
@@ -1173,7 +1282,7 @@
             <!--Кава 9-->
             <div class="col">
               <div class="btn" data-toggle="modal" data-target="#modal-9">
-                <img src="images/Coffe/Gold 1.JPG" />
+                <img src="images/Coffe/Gold 0.JPG" />
                 <h3>Gold</h3>
                 <h5>135,00 грн.</h5>
                 <h4>90,00 грн.</h4>
@@ -1305,7 +1414,7 @@
             <!--Кава 10-->
             <div class="col">
               <div class="btn" data-toggle="modal" data-target="#modal-10">
-                <img src="images/Coffe/Caramel Royale 1.JPG" />
+                <img src="images/Coffe/Caramel Royale 0.JPG" />
                 <h3>Caramel Royale</h3>
                 <h5>135,00 грн.</h5>
                 <h4>90,00 грн.</h4>
@@ -1439,7 +1548,7 @@
             <!--Кава 11-->
             <div class="col">
               <div class="btn" data-toggle="modal" data-target="#modal-11">
-                <img src="images/Coffe/Premium 1.JPG" />
+                <img src="images/Coffe/Premium 0.JPG" />
                 <h3>Special Line. Premium</h3>
                 <h5>298,00 грн.</h5>
                 <h4>255,00 грн. + філіжанка в подарунок</h4>
@@ -1550,10 +1659,10 @@
             <!--Кава 12-->
             <div class="col">
               <div class="btn" data-toggle="modal" data-target="#modal-12">
-                <img src="images/Coffe/BanderStadt 1.JPG" />
-                <h3>BanderStadt</h3>
-                <h5>78,00 грн.</h5>
-                <h4>50,00 грн.</h4>
+                <img src="images/Coffe/De_ORO 0.JPG" />
+                <h3>Special Line. De’ORO</h3>
+                <h5>315,00 грн.</h5>
+                <h4>270,00 грн. + філіжанка у подарунок</h4>
               </div>
 
               <!-- Extra large modal -->
@@ -1584,42 +1693,20 @@
                             data-target="#carouse-caption-12"
                             data-slide-to="1"
                           ></li>
-                          <li
-                            data-target="#carouse-caption-12"
-                            data-slide-to="2"
-                          ></li>
-                          <li
-                            data-target="#carouse-caption-12"
-                            data-slide-to="3"
-                          ></li>
                         </ol>
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <img
-                              src="images/Coffe/Coffe-01-1.jpg"
+                              src="images/Coffe/De_ORO 1.JPG"
                               class="d-block"
-                              alt="Coffe-01-1.jpg"
+                              alt="De_ORO 1.JPG"
                             />
                           </div>
                           <div class="carousel-item">
                             <img
-                              src="images/Coffe/Coffe-01-2.jpg"
+                              src="images/Coffe/De_ORO 2.JPG"
                               class="d-block"
-                              alt="Coffe-01-2.jpg"
-                            />
-                          </div>
-                          <div class="carousel-item">
-                            <img
-                              src="images/Coffe/Coffe-01-3.jpg"
-                              class="d-block"
-                              alt="Coffe-01-3.jpg"
-                            />
-                          </div>
-                          <div class="carousel-item">
-                            <img
-                              src="images/Coffe/Coffe-01-4.jpg"
-                              class="d-block"
-                              alt="Coffe-01-4.jpg"
+                              alt="De_ORO 2.JPG"
                             />
                           </div>
                         </div>
@@ -1650,20 +1737,19 @@
                       </div>
                       <div class="carousel-description">
                         <p>
-                          <b>«BanderStadt»</b> - 250 г., мелена натуральна кава,
-                          степінь обсмаження – середня. Вартість – без
-                          урахування знижки – <b>78.00</b>, акційна –
-                          <b>50.00</b>.
+                          <b>«Special Line. De’ORO»</b> - 1000 г., кавові зерна
+                          середнього степеню обсмаження, 100% Арабіка. Вартість
+                          – без урахування знижки – <b>315.00</b>, акційна –
+                          <b>270.00 + філіжанка в подарунок.</b>
                         </p>
                         <p>
-                          «BanderStadt» підкорює своїми ніжно-шоколадними
-                          смаковими барвами. Її створюють у поєднанні
-                          високоякісних сортів бразильської Арабіки та
-                          індійської Робусти. Кава володіє високим рівнем
-                          інтенсивності, при цьому даючи тонкий, ненав’язливий
-                          смак. За рахунок середнього степеню помолу, вона
-                          практична в приготуванні й чудово підійде для
-                          щоденного вживання.
+                          «De’ORO» ідеально підійде тим, хто звик
+                          насолоджуватися кавою щоденно і, серед критеріїв її
+                          вибору, важливою умовою ставить неприторний,
+                          ненав’язливий смак продукту, який би не «приїдався» з
+                          часом. Відбірні бразильські зерна Арабіки, в поєднанні
+                          з африканськими сортами, компонують фантастичний
+                          смаковий ансамбль.
                         </p>
                         <div class="modal-footer">
                           <button
@@ -1687,10 +1773,10 @@
             <!--Кава 13-->
             <div class="col">
               <div class="btn" data-toggle="modal" data-target="#modal-13">
-                <img src="images/Coffe/Coffe-01-1.jpg" />
-                <h3>Costa Rica. Azalea</h3>
-                <h5>145,00 грн.</h5>
-                <h4>110,00 грн.</h4>
+                <img src="images/Coffe/Honduras 0.JPG" />
+                <h3>Honduras. SHG EP</h3>
+                <h5>315,00 грн.</h5>
+                <h4>270,00 грн.</h4>
               </div>
 
               <!-- Extra large modal -->
@@ -1721,42 +1807,20 @@
                             data-target="#carouse-caption-13"
                             data-slide-to="1"
                           ></li>
-                          <li
-                            data-target="#carouse-caption-13"
-                            data-slide-to="2"
-                          ></li>
-                          <li
-                            data-target="#carouse-caption-13"
-                            data-slide-to="3"
-                          ></li>
                         </ol>
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <img
-                              src="images/Coffe/Coffe-01-1.jpg"
+                              src="images/Coffe/Honduras 1.JPG"
                               class="d-block"
-                              alt="Coffe-01-1.jpg"
+                              alt="Honduras 1.JPG"
                             />
                           </div>
                           <div class="carousel-item">
                             <img
-                              src="images/Coffe/Coffe-01-2.jpg"
+                              src="images/Coffe/Honduras 2.JPG"
                               class="d-block"
-                              alt="Coffe-01-2.jpg"
-                            />
-                          </div>
-                          <div class="carousel-item">
-                            <img
-                              src="images/Coffe/Coffe-01-3.jpg"
-                              class="d-block"
-                              alt="Coffe-01-3.jpg"
-                            />
-                          </div>
-                          <div class="carousel-item">
-                            <img
-                              src="images/Coffe/Coffe-01-4.jpg"
-                              class="d-block"
-                              alt="Coffe-01-4.jpg"
+                              alt="Honduras 2.JPG"
                             />
                           </div>
                         </div>
@@ -1787,18 +1851,20 @@
                       </div>
                       <div class="carousel-description">
                         <p>
-                          <b>«Costa Rica. Azalea»</b> - 250 г., 100% Арабіка,
-                          мелена кава, категорія «моносорта», степінь обсмаження
-                          – середня, походження – Коста-Рика. Вартість – без
-                          урахування знижки – <b>145.00</b>, акційна –
-                          <b>110.00</b>
+                          <b>«Honduras. SHG EP»</b> - 1000 г., кавові зерна
+                          середнього степеню обсмаження, 100% Арабіка, категорія
+                          «моносорти», походження – Гондурас. Вартість – без
+                          урахування знижки – <b>315.00</b>, акційна –
+                          <b>270.00.</b>
                         </p>
                         <p>
-                          Даний сорт створює цілий букет смакових вражень,
-                          поєднавши в собі відтінки шоколаду, грецького горіха
-                          та присмак червоного вина. Підходить для різних
-                          методик приготування. Прикрашає філіжанку густою
-                          пінкою та насиченим, яскравим ароматом.
+                          Проводячи паралель з культовими кавовими сортами,
+                          «Honduras» не користується масовою популярністю у
+                          зв’язку з нетиповими смаковими особливостями. Для
+                          проби чи в якості подарунку, він найкраще підійде для
+                          випадку, коли хочеться скуштувати щось кардинально
+                          нове – те, що не має аналогів у списку попередньо
+                          дегустованих Вами кавових напоїв.
                         </p>
                         <div class="modal-footer">
                           <button
@@ -1820,10 +1886,10 @@
             <!--Кава 14-->
             <div class="col">
               <div class="btn" data-toggle="modal" data-target="#modal-14">
-                <img src="images/Coffe/Coffe-01-1.jpg" />
-                <h3>BanderStadt</h3>
-                <h5>78,00 грн.</h5>
-                <h4>50,00 грн.</h4>
+                <img src="images/Coffe/India 0.JPG" />
+                <h3>India Plantation</h3>
+                <h5>345,00 грн.</h5>
+                <h4>305,00 грн.</h4>
               </div>
 
               <!-- Extra large modal -->
@@ -1854,42 +1920,20 @@
                             data-target="#carouse-caption-14"
                             data-slide-to="1"
                           ></li>
-                          <li
-                            data-target="#carouse-caption-14"
-                            data-slide-to="2"
-                          ></li>
-                          <li
-                            data-target="#carouse-caption-14"
-                            data-slide-to="3"
-                          ></li>
                         </ol>
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <img
-                              src="images/Coffe/Coffe-01-1.jpg"
+                              src="images/Coffe/India 1.JPG"
                               class="d-block"
                               alt="Coffe-01-1.jpg"
                             />
                           </div>
                           <div class="carousel-item">
                             <img
-                              src="images/Coffe/Coffe-01-2.jpg"
+                              src="images/Coffe/India 2.JPG"
                               class="d-block"
                               alt="Coffe-01-2.jpg"
-                            />
-                          </div>
-                          <div class="carousel-item">
-                            <img
-                              src="images/Coffe/Coffe-01-3.jpg"
-                              class="d-block"
-                              alt="Coffe-01-3.jpg"
-                            />
-                          </div>
-                          <div class="carousel-item">
-                            <img
-                              src="images/Coffe/Coffe-01-4.jpg"
-                              class="d-block"
-                              alt="Coffe-01-4.jpg"
                             />
                           </div>
                         </div>
@@ -1920,20 +1964,18 @@
                       </div>
                       <div class="carousel-description">
                         <p>
-                          <b>«BanderStadt»</b> - 250 г., мелена натуральна кава,
-                          степінь обсмаження – середня. Вартість – без
-                          урахування знижки – <b>78.00</b>, акційна –
-                          <b>50.00</b>.
+                          <b>«India Plantation»</b> - 1000 г., кавові зерна
+                          середнього степеню обсмаження, 100% Арабіка, категорія
+                          «моносорти», походження – Індія. Вартість – без
+                          урахування знижки – <b>345.00</b>, акційна –
+                          <b>305.00</b>.
                         </p>
                         <p>
-                          «BanderStadt» підкорює своїми ніжно-шоколадними
-                          смаковими барвами. Її створюють у поєднанні
-                          високоякісних сортів бразильської Арабіки та
-                          індійської Робусти. Кава володіє високим рівнем
-                          інтенсивності, при цьому даючи тонкий, ненав’язливий
-                          смак. За рахунок середнього степеню помолу, вона
-                          практична в приготуванні й чудово підійде для
-                          щоденного вживання.
+                          За історію існування кавової індустрії, індійські
+                          сорти були признані одними з провідних та завше мали
+                          колосальний попит. Дана композиція смаку й аромату
+                          оперує бездоганними цитрусовими барвами, що ведуть за
+                          собою делікатний післясмак сухофруктів.
                         </p>
                         <div class="modal-footer">
                           <button
@@ -2010,69 +2052,64 @@
                   >
                   <input type="text" class="form-control" id="new-post" />
                 </div>
-
-                <!-- Кава 1 -->
                 <div class="form-group">
+                  <label for="phone" class="phonecol-form-label"
+                    >Ви хотіли б замовити:</label
+                  >
+
+                  <!-- Кава 1 -->
                   <div class="form-check">
                     <input
                       class="form-check-input"
                       type="checkbox"
-                      value="«Kenya. Mount Selection»"
+                      value="«Lemberg»"
                       id="Check1"
                     />
                     <label class="form-check-label" for="Check1">
-                      «Kenya. Mount Selection»
+                      «Lemberg»
                     </label>
                   </div>
-                </div>
 
-                <!-- Кава 2 -->
-                <div class="form-group">
+                  <!-- Кава 2 -->
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value="«Colombia Supremo»"
+                      id="Check2"
+                    />
+                    <label class="form-check-label" for="Check2">
+                      «Colombia Supremo»
+                    </label>
+                  </div>
+
+                  <!-- Кава 3 -->
                   <div class="form-check">
                     <input
                       class="form-check-input"
                       type="checkbox"
                       value="«Ethiopia Sidamo»"
-                      id="Check2"
-                    />
-                    <label class="form-check-label" for="Check2">
-                      «Ethiopia Sidamo»
-                    </label>
-                  </div>
-                </div>
-
-                <!-- Кава 3 -->
-                <div class="form-group">
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      value="«Colombia»"
                       id="Check3"
                     />
                     <label class="form-check-label" for="Check3">
-                      «Colombia»
+                      «Ethiopia Sidamo»
                     </label>
                   </div>
-                </div>
 
-                <!-- Кава 4 -->
-                <div class="form-group">
+                  <!-- Кава 4 -->
                   <div class="form-check">
                     <input
                       class="form-check-input"
                       type="checkbox"
-                      value="«Costa Rica. Azalea»"
+                      value="«Галіція»"
                       id="Check4"
                     />
                     <label class="form-check-label" for="Check4">
-                      Costa Rica. Azalea
+                      «Costa Rica. Azalea»
                     </label>
                   </div>
-                </div>
 
-                <!-- Кава 5 -->
-                <div class="form-group">
+                  <!-- Кава 5 -->
                   <div class="form-check">
                     <input
                       class="form-check-input"
@@ -2081,13 +2118,11 @@
                       id="«Lemberg»"
                     />
                     <label class="form-check-label" for="Check5">
-                      «Lemberg»
+                      «Kenya. Mount Selection»
                     </label>
                   </div>
-                </div>
 
-                <!-- Кава 6 -->
-                <div class="form-group">
+                  <!-- Кава 6 -->
                   <div class="form-check">
                     <input
                       class="form-check-input"
@@ -2099,25 +2134,21 @@
                       «Бандерівка»
                     </label>
                   </div>
-                </div>
 
-                <!-- Кава 7 -->
-                <div class="form-group">
+                  <!-- Кава 7 -->
                   <div class="form-check">
                     <input
                       class="form-check-input"
                       type="checkbox"
-                      value="«Галіція»"
+                      value="«Costa Rica. Azalea»"
                       id="Check7"
                     />
                     <label class="form-check-label" for="Check7">
-                      «Галіція»
+                      «Costa Rica. Azalea»
                     </label>
                   </div>
-                </div>
 
-                <!-- Кава 8 -->
-                <div class="form-group">
+                  <!-- Кава 8 -->
                   <div class="form-check">
                     <input
                       class="form-check-input"
@@ -2129,10 +2160,8 @@
                       «BanderStadt»
                     </label>
                   </div>
-                </div>
 
-                <!-- Кава 9 -->
-                <div class="form-group">
+                  <!-- Кава 9 -->
                   <div class="form-check">
                     <input
                       class="form-check-input"
@@ -2144,10 +2173,8 @@
                       «Gold»
                     </label>
                   </div>
-                </div>
 
-                <!-- Кава 10 -->
-                <div class="form-group">
+                  <!-- Кава 10 -->
                   <div class="form-check">
                     <input
                       class="form-check-input"
@@ -2159,79 +2186,71 @@
                       «Caramel Royale»
                     </label>
                   </div>
-                </div>
 
-                <!-- Кава 11 -->
-                <div class="form-group">
+                  <!-- Кава 11 -->
                   <div class="form-check">
                     <input
                       class="form-check-input"
                       type="checkbox"
-                      value="«Honduras»"
+                      value="«Special Line. Premium»"
                       id="Check11"
                     />
                     <label class="form-check-label" for="Check11">
-                      «Honduras»
+                      «Special Line. Premium»
                     </label>
                   </div>
-                </div>
 
-                <!-- Кава 12 -->
-                <div class="form-group">
+                  <!-- Кава 12 -->
                   <div class="form-check">
                     <input
                       class="form-check-input"
                       type="checkbox"
-                      value="«India»"
+                      value="«Special Line. De’ORO»"
                       id="Check12"
                     />
                     <label class="form-check-label" for="Check12">
-                      «India»
+                      «Special Line. De’ORO»
                     </label>
                   </div>
-                </div>
 
-                <!-- Кава 13 -->
-                <div class="form-group">
+                  <!-- Кава 13 -->
                   <div class="form-check">
                     <input
                       class="form-check-input"
                       type="checkbox"
-                      value="«Premium»"
+                      value="«Honduras. SHG EP»"
                       id="Check13"
                     />
                     <label class="form-check-label" for="Check13">
-                      «Premium»
+                      «Honduras. SHG EP»
                     </label>
                   </div>
-                </div>
 
-                <!-- Кава 14 -->
-                <div class="form-group">
+                  <!-- Кава 14 -->
                   <div class="form-check">
                     <input
                       class="form-check-input"
                       type="checkbox"
-                      value="«De’ORO»"
+                      value="«India Plantation»"
                       id="Check14"
                     />
                     <label class="form-check-label" for="Check14">
-                      «De’ORO»
+                      «India Plantation»
                     </label>
                   </div>
-                </div>
 
-                <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-aside"
-                    data-dismiss="modal"
-                  >
-                    Назад
-                  </button>
-                  <button id="submit" type="button" class="btn btn-aside">
-                    Відправити
-                  </button>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn menu-buttons"
+                      data-dismiss="modal"
+                    >
+                      Назад
+                    </button>
+                    <button id="submit" type="button" class="btn menu-buttons">
+                      Відправити
+                    </button>
+                  </div>
                 </div>
               </form>
             </div>
@@ -2242,8 +2261,13 @@
     <!--/MAIN SECTION-->
     <!--FOOTER-->
     <footer>
-      <div><p>ФОП Дубелір</p></div>
-      <div><p>Адреса</p></div>
+      <div>
+        <p><b>ФОП Дубелір Н.А.</b></p>
+        <p>
+          Адреса потужностей виробництва: вул. Львівська 148 б, с. Наварія,
+          Пустомитівський р-н, Львівська обл., Україна, 81105.
+        </p>
+      </div>
     </footer>
     <!--/FOOTER-->
     <!-- MODAL WINDOW -->

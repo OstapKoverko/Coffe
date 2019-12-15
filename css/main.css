@@ -35,15 +35,25 @@ main {
   flex-wrap: wrap;
   position: relative;
 }
+.main-section {
+  text-align: center;
+}
 
 /* Header */
 header {
   max-width: 70%;
-  position: relative;
-  text-align: center;
   z-index: 1;
   margin: 25% auto 0;
   padding: 0;
+}
+
+#logo {
+  text-align: center;
+}
+
+#logo2 {
+  width: 100%;
+  padding-bottom: 5%;
 }
 
 /* .sticky {
@@ -128,7 +138,10 @@ aside:hover {
 /* FOOTER */
 footer {
   margin: 10% auto;
-  width: 25%;
+  width: 50%;
 }
 
+footer p:last-child {
+  font-weight: normal;
+}
 /* MODAL WINDOW */
